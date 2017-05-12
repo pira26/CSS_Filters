@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.GrayScale img{
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-o-filter: grayscale(1);
+}
+
+.GrayScale img:hover {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	-o-filter: grayscale(0);
+}
+
+.Blur img{
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-ms-filter: blur(5px);
+	-o-filter: blur(5px);
+}
+
+.Blur img:hover {
+	filter: blur(0);
+	-webkit-filter: blur(0);
+	-moz-filter: blur(0);
+	-ms-filter: blur(0);
+	-o-filter: blur(0);
+}
+
+.Sepia img{
+	filter: sepia(1);
+	-webkit-filter: sepia(1);
+	-moz-filter: sepia(1);
+	-ms-filter: sepia(1);
+	-o-filter: sepia(1);
+}
+
+.Sepia img:hover {
+	filter: sepia(0);
+	-webkit-filter: sepia(0);
+	-moz-filter: sepia(0);
+	-ms-filter: sepia(0);
+	-o-filter: sepia(0);
+}
+
+.Invert img{
+	filter: invert(1);
+	-webkit-filter: invert(1);
+	-moz-filter: invert(1);
+	-ms-filter: invert(1);
+	-o-filter: invert(1);
+}
+
+.Invert img:hover {
+	filter: invert(0);
+	-webkit-filter: invert(0);
+	-moz-filter: invert(0);
+	-ms-filter: invert(0);
+	-o-filter: invert(0);
+}
+
+.Saturate img{
+	filter: saturate(500%);
+	-webkit-filter: saturate(500%);
+	-moz-filter: saturate(500%);
+	-ms-filter: saturate(500%);
+	-o-filter: saturate(500%);
+}
+
+.Saturate img:hover {
+	filter: saturate(100%);
+	-webkit-filter: saturate(100%);
+	-moz-filter: saturate(100%);
+	-ms-filter: saturate(100%);
+	-o-filter: saturate(100%);
+}
+
+.Contrast img{
+	filter: contrast(0.5);
+	-webkit-filter: contrast(0.5);
+	-moz-filter: contrast(0.5);
+	-ms-filter: contrast(0.5);
+	-o-filter: contrast(0.5);
+}
+
+.Contrast img:hover {
+	filter: contrast(1);
+	-webkit-filter: contrast(1);
+	-moz-filter: contrast(1);
+	-ms-filter: contrast(1);
+	-o-filter: contrast(1);
+}
+
+.Brightness img{
+	filter: brightness(0.5);
+	-webkit-filter: brightness(0.5);
+	-moz-filter: brightness(0.5);
+	-ms-filter: brightness(0.5);
+	-o-filter: brightness(0.5);
+}
+
+.Brightness img:hover {
+	filter: brightness(1);
+	-webkit-filter: brightness(1);
+	-moz-filter: brightness(1);
+	-ms-filter: brightness(1);
+	-o-filter: brightness(1);
+}
+
+.HueRotate img{
+	filter: hue-rotate(90deg);
+	-webkit-filter: hue-rotate(90deg);
+	-moz-filter: hue-rotate(90deg);
+	-ms-filter: hue-rotate(90deg);
+	-o-filter: hue-rotate(90deg);
+}
+
+.HueRotate img:hover {
+	filter: hue-rotate(0deg);
+	-webkit-filter: hue-rotate(0deg);
+	-moz-filter: hue-rotate(0deg);
+	-ms-filter: hue-rotate(0deg);
+	-o-filter: hue-rotate(0deg);
+}
+
+.DropShadow img{
+	filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+	-webkit-filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+	-moz-filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+	-ms-filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+	-o-filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.8));
+}
+
+.Opacity img{
+    opacity: 0.5;
+}
+
+.Opacity img:hover{
+    opacity: 1;
+}
+
+.row {
+	margin: 30px;
+}
+
+.img-responsive {
+	width: 300px;
+	height: 300px;
+}
+
+footer {
+	margin: 50px 0;
+}
